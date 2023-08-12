@@ -7,7 +7,7 @@ int max = 0;
 int min = 0;
 
 Console.Write("Введите первое число: ");
-int number1 = Convert.ToInt32(Console.ReadLine());
+int number1 = Convert.ToInt32(Console.ReadLine());    //Погуглил про Convert.ToInt32 захотелось сделать одно решение для трех задач, а не наоборот
 
 Console.Write("Введите второе число: ");
 int number2 = Convert.ToInt32(Console.ReadLine());
@@ -22,4 +22,4 @@ else
     max = number2;
     min = number1;
 }
-Console.Write("max = " + max + "  " + "min = " + min);
+Console.Write("max = " + max + "  " + "min = " + min);              //Оператор "+" соединяет строки
